@@ -1,10 +1,10 @@
 'use strict';
 
-var _ = require('lodash');
-var storageSettings = require('./storageSettings.js');
-var nicSettings = require('./networkInterfaceSettings.js');
-var avSetSettings = require('./availabilitySetSettings.js');
-var resources = require('./resources.js');
+let _ = require('lodash');
+let storageSettings = require('./storageSettings.js');
+let nicSettings = require('./networkInterfaceSettings.js');
+let avSetSettings = require('./availabilitySetSettings.js');
+let resources = require('./resources.js');
 let v = require('./validation.js');
 let defaultSettings = require('./virtualMachineSettingsDefaults.js');
 
